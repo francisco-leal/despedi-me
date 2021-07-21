@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { Break } from "components/Break"
 import Emoji from "components/Emoji"
 import camoes from "../public/camoes.png"
+import styles from '../styles/background.module.css'
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
         <meta name="description" content="É demitir.." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className={styles.bg} />
+      <div className={`${styles.bg} ${styles.bg2}`} />
+      <div className={`${styles.bg} ${styles.bg3}`} />
       <div className="flex flex-col justify-center items-center w-96 max-w-1/4">
         <Image src={camoes} className="w-3/4" alt="Luís de Camões chateado contigo"/>
         <h1 className="text-center text-xl">Aprende português Caralho!</h1>
