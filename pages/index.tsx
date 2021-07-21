@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <div className="flex h-screen justify-center">
       <Head>
-        <title>Demiti-me!</title>
-        <meta name="description" content="Para todas as boas histórias de demissão." />
+        <title>Despedi-me!</title>
+        <meta name="description" content="É demitir.." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col justify-center items-center w-96 max-w-1/4">
